@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Details from './pages/Details';
+import HomePage from './pages/Homepage';
+import Lineage from './pages/Lineage';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+    <React.StrictMode>
+          <Router>
+            <Route path="/" component={HomePage} exact/>
+            <Route path="/Details" component={Details} exact/>
+            <Route path="/Lineage" component={Lineage} exact/>
+        </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
