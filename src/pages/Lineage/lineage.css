@@ -1,0 +1,27 @@
+
+
+#lineage>.evolution-list{
+    margin-top: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#lineage>.evolution-list>.image-container{
+    text-align: center;
+}
+
+#lineage>.evolution-list>.image-container>img {
+    height: 300px;
+    width: 300px;
+}
+.seta{
+    margin-top:150px;
+    height: 80px;
+    width: 80px;
+    
+}
+
+
+
+
