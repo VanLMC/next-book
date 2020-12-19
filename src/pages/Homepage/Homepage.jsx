@@ -1,8 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 
+export default function Homepage() {
 
-export default function homepage() {
+    const [Pokemon, setPokemon ] = useState();
+
     return (
         <div>
             <h1>Homepage</h1>
