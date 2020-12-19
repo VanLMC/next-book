@@ -8,6 +8,7 @@ import Venossauro from '../../assets/venusauro.jpg';
 import Seta from '../../assets/seta.png';
 export default function Lineage() {
 
+        
         const [evolutions, setEvolutions] = useState([
             {
                 name: 'Bulbassauro',
@@ -31,7 +32,6 @@ export default function Lineage() {
         <div className="evolution-list">
             {evolutions.map( evolution => (
                 <>
-
                 <div className="image-container">
                     <img src={evolution.image} alt={evolution.name} />
                     
