@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import './global.css';
 import Details from './pages/Details';
 import HomePage from './pages/Homepage';
 import Lineage from './pages/Lineage';
